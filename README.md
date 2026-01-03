@@ -1,8 +1,6 @@
 # Cheeky Votann: The Ancestor Core
 
-<p align="center">
-<img width="400" src="[https://github.com/user-attachments/assets/your-new-votann-logo-placeholder.png](https://www.google.com/search?q=https://github.com/user-attachments/assets/your-new-votann-logo-placeholder.png)" alt="Cheeky Votann Logo" />
-</p>
+![votann-logo-placeholder.png](Gemini_Generated_Image_q4n8h7q4n8h7q4n8.png)
 
 > **"The Ancestors are watching, and they have the answers."**
 
