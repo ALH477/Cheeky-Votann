@@ -1,60 +1,76 @@
-<img width="1299" height="424" alt="cd (1)" src="Gemini_Generated_Image_q4n8h7q4n8h7q4n8.png" />
+# Cheeky Votann: The Ancestor Core
 
-## Recall.ai - API for desktop recording
+<p align="center">
+<img width="400" src="[https://github.com/user-attachments/assets/your-new-votann-logo-placeholder.png](https://www.google.com/search?q=https://github.com/user-attachments/assets/your-new-votann-logo-placeholder.png)" alt="Cheeky Votann Logo" />
+</p>
 
-If you’re looking for a hosted desktop recording API, consider checking out [Recall.ai](https://www.recall.ai/product/desktop-recording-sdk/?utm_source=github&utm_medium=sponsorship&utm_campaign=sohzm-cheating-daddy), an API that records Zoom, Google Meet, Microsoft Teams, in-person meetings, and more.
+> **"The Ancestors are watching, and they have the answers."**
 
-This project is sponsored by Recall.ai.
+**Cheeky Votann** is a privacy-first, Linux-native Strategic Intelligence Core. Originally a fork of `cheating-daddy`, this version has been remastered for the High Kahls of the galactic core who demand low-latency, local-first inference and reproducible system integration.
+
+## 🛠 The Votann Tech Stack
+
+Unlike cloud-dependent assistants, Cheeky Votann is engineered for the Linux power user:
+
+* **Local Inference Engine**: Integrated support for **Ollama** (Llama 3/Qwen2-VL) and **Piper TTS**.
+* **Neural Sidecar**: A Python-based "Fast Cascade" that handles VAD, transcription, and synthesis locally.
+* **PipeWire Native**: Uses `parec` and PipeWire graph routing for sub-20ms audio capture latency.
+* **Nix-Powered**: A fully reproducible `flake.nix` that hermetically seals the environment, dependencies, and GPU drivers.
+
+## Core Features
+
+* **Ancestor Wisdom (Local & Cloud)**: Support for Google Gemini 2.0 Flash Live OR local Ollama inference.
+* **Multimodal Cognition**: Real-time screen analysis for coding challenges and IDE context.
+* **Zero-Latency Audio**: Optimized Linux audio plumbing—records in Mono directly from the source to save CPU cycles.
+* **Holo-Overlay**: A transparent, always-on-top Electron window that stays out of your way during high-stakes maneuvers.
+* **Privacy-First**: Your interview audio never has to leave the system if you use the Local Stack.
+
+## Awakening the Core (Setup)
+
+### The Nix Way (Recommended)
+
+If you are running NixOS or have the Nix package manager, awakening the core is a single command:
+
+```bash
+nix run github:your-repo/cheeky-votann
+
+```
+
+### The Standard Way
+
+1. **Ollama**: Ensure [Ollama](https://ollama.com/) is installed and running (`ollama serve`).
+2. **PulseAudio/PipeWire**: Ensure `pulseaudio-utils` is installed for the `parec` backend.
+3. **Install & Start**:
+```bash
+npm install
+npm start
+
+```
+
+
+
+## Battle Controls (Keyboard Shortcuts)
+
+| Shortcut | Action |
+| --- | --- |
+| `Ctrl/Cmd + Arrow Keys` | Reposition the Core (Window) |
+| `Ctrl/Cmd + M` | Toggle Mouse Transparency (Click-through) |
+| `Ctrl/Cmd + \` | Retrench (Close/Back) |
+| `Enter` | Send direct query to the Ancestors |
+
+## System Architecture
+
+Cheeky Votann operates on a **Dual-Path Intelligence** model:
+
+1. **The Cloud Path**: Direct WebSocket connection to Gemini 2.0 Live for maximum reasoning breadth.
+2. **The Local Path (Experimental)**: A Python sidecar utilizing `Faster-Whisper` for STT, `Ollama` for reasoning, and `Piper` for TTS, routed through the PipeWire audio graph.
+
+## ⚖️ License
+
+Distributed under the **GPL-3.0 License**. The Ancestors believe in open-source intelligence.
 
 ---
 
-> [!NOTE]  
-> Use latest MacOS and Windows version, older versions have limited support
 
-> [!NOTE]  
-> During testing it wont answer if you ask something, you need to simulate interviewer asking question, which it will answer
-
-A real-time AI assistant that provides contextual help during video calls, interviews, presentations, and meetings using screen capture and audio analysis.
-
-## Features
-
-- **Live AI Assistance**: Real-time help powered by Google Gemini 2.0 Flash Live
-- **Screen & Audio Capture**: Analyzes what you see and hear for contextual responses
-- **Multiple Profiles**: Interview, Sales Call, Business Meeting, Presentation, Negotiation
-- **Transparent Overlay**: Always-on-top window that can be positioned anywhere
-- **Click-through Mode**: Make window transparent to clicks when needed
-- **Cross-platform**: Works on macOS, Windows, and Linux (kinda, dont use, just for testing rn)
-
-## Setup
-
-1. **Get a Gemini API Key**: Visit [Google AI Studio](https://aistudio.google.com/apikey)
-2. **Install Dependencies**: `npm install`
-3. **Run the App**: `npm start`
-
-## Usage
-
-1. Enter your Gemini API key in the main window
-2. Choose your profile and language in settings
-3. Click "Start Session" to begin
-4. Position the window using keyboard shortcuts
-5. The AI will provide real-time assistance based on your screen and what interview asks
-
-## Keyboard Shortcuts
-
-- **Window Movement**: `Ctrl/Cmd + Arrow Keys` - Move window
-- **Click-through**: `Ctrl/Cmd + M` - Toggle mouse events
-- **Close/Back**: `Ctrl/Cmd + \` - Close window or go back
-- **Send Message**: `Enter` - Send text to AI
-
-## Audio Capture
-
-- **macOS**: [SystemAudioDump](https://github.com/Mohammed-Yasin-Mulla/Sound) for system audio
-- **Windows**: Loopback audio capture
-- **Linux**: Microphone input
-
-## Requirements
-
-- Electron-compatible OS (macOS, Windows, Linux)
-- Gemini API key
-- Screen recording permissions
-- Microphone/audio permissions
+*Disclaimer: Use Cheeky Votann responsibly. The High Kahl is not responsible for any corporate disciplinary actions resulting from the unauthorized use of Ancestral Intelligence.*
+Original work is by Soham.
